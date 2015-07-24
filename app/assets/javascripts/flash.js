@@ -1,4 +1,4 @@
-jQuery.fn.flash = function(className, timeout) {
+jQuery.fn.flash = function(className, timeout) {  
     this.each(function() {
         var self = $(this);
         self.addClass(className);
